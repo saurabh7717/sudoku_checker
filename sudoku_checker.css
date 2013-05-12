@@ -1,0 +1,62 @@
+*{
+	padding:0px;
+	margin:0px;
+	border:0px;
+}
+body {
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+	background-color: yellow;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th, td {
+	border: 2px #666 solid;
+	text-align: center;
+	font-size: 24px;
+	width: 50px;
+	height: 50px;
+}
+
+td input{
+	width:50px;
+	height:50px;
+	border:none;
+	font-size:1.5em;
+	padding-left:12px;
+}
+
+#checkresult{
+	background-color:#5cb811;
+	width:200px;
+	height:35px;
+	color:red;
+	font-weight:bold;
+	font-size:18px;
+	border:1px solid red;
+}
+
+.checkbutton{text-align:center;}
+
+h1{
+	color:#F88017;
+	font-family:sans-serif;
+	text-align:center;
+}
+
+#start{
+	background-color:yellow;
+	color:red;
+	width:200px;
+	height:40px;
+	font-size:18px;
+	font-weight:bold;
+	border:1px solid green;
+}
